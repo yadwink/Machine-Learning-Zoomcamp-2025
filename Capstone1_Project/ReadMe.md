@@ -86,7 +86,7 @@ Docker deployment file
 
 I tested the deployed FastAPI service by sending a JSON payload with the 10 engineered physiological features. The `/predict` endpoint returned:
 
-```json
+
 {
   "prediction": "STRESS",
   "prediction_id": 0,
