@@ -1,0 +1,9 @@
+# configs/base.yaml
+data:
+  raw_dir: "data/wearable-device-dataset-from-induced-stress-and-structured-exercise-sessions-1.0.1/Wearable_Dataset"
+  processed_dir: "data/processed"
+
+meta:
+  subject_info: "data/wearable-device-dataset-from-induced-stress-and-structured-exercise-sessions-1.0.1/subject-info.csv"
+  stress_v1: "data/wearable-device-dataset-from-induced-stress-and-structured-exercise-sessions-1.0.1/Stress_Level_v1.csv"
+  stress_v2: "data/wearable-device-dataset-from-induced-stress-and-structured-exercise-sessions-1.0.1/Stress_Level_v2.csv"
