@@ -116,7 +116,7 @@ Proof of deployment includes:
 - A running Docker container (`docker ps`)
 - A successful prediction request using `curl`
 
-Screenshots is added as Deployment-Proof.png
+Screenshot is added as Deployment-Proof.png
 
 The prediction service was deployed locally using Docker.  
 The container exposes port 8080 and serves predictions via a REST API.
