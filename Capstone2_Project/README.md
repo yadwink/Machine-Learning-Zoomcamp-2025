@@ -59,7 +59,7 @@ The Jupyter Notebook (notebook.ipynb) walks through the complete machine learnin
 ### Clone the repository and install dependencies:
 
 ```
-git clone <your-repository-url>
+git clone https://github.com/yadwink/Machine-Learning-Zoomcamp-2025/tree/main/Capstone2_Project
 cd Capstone2_Project
 pip install -r requirements.txt
 
@@ -80,3 +80,30 @@ Trains the final Random Forest model using optimal parameters
 Evaluates it on the test set
 
 Saves the trained model as model.pkl
+
+## Running the Prediction Service
+Start the API manually
+
+You can start the prediction service locally using:
+
+Running the Prediction Service
+Start the API manually
+
+```
+python predict.py
+```
+
+## Test the API with curl
+
+Example request:
+
+Test the API with curl
+
+```
+curl -X POST http://localhost:8080/predict \
+  -H "Content-Type: application/json" \
+  -d '{"TSH":0.4,"TT4":88,"T4U":0.89,"FTI":99,"age":16,"sex":0}'
+
+  {"prediction": 0.82}
+```
+
