@@ -107,3 +107,25 @@ curl -X POST http://localhost:8080/predict \
   {"prediction": 0.82}
 ```
 
+## Deployment Proof
+
+The model was deployed locally using Docker.  
+The container runs a Flask-based REST API that serves predictions on port 8080.
+
+Proof of deployment includes:
+- A running Docker container (`docker ps`)
+- A successful prediction request using `curl`
+
+Screenshots is added as Deployment-Proof.png
+
+The prediction service was deployed locally using Docker.  
+The container exposes port 8080 and serves predictions via a REST API.
+
+Deployment steps:
+1. Build Docker image using `docker build`
+2. Run container using `docker run`
+3. Send POST requests to `/predict` endpoint
+4. Receive JSON predictions successfully
+
+This confirms the model is deployed and operational.
+
