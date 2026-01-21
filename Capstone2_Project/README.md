@@ -59,8 +59,8 @@ The Jupyter Notebook (notebook.ipynb) walks through the complete machine learnin
 ### Clone the repository and install dependencies:
 
 ```
-git clone https://github.com/yadwink/Machine-Learning-Zoomcamp-2025/tree/main/Capstone2_Project
-cd Capstone2_Project
+git clone https://github.com/yadwink/Machine-Learning-Zoomcamp-2025.git
+cd Machine-Learning-Zoomcamp-2025/Capstone2_Project
 pip install -r requirements.txt
 
 ```
